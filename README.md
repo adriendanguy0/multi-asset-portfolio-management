@@ -47,24 +47,26 @@ Observing the impact of periodic rebalancing and transaction costs.
 Simple quantitative tools
 Using simulations and models as decision-support tools, not as black boxes.
 
-# Key features
+## Project overview
 
-Construction of a simple multi-asset portfolio with fixed target weights
+1. Portfolio monitoring  
+   Observation of portfolio performance, volatility and drawdowns.
 
-Portfolio performance tracking and drawdown analysis
+2. Risk metrics  
+   Computation of key risk indicators (volatility, Sharpe ratio, VaR).
 
-Risk metrics: volatility, Sharpe ratio, historical and parametric VaR
+3. Quantitative tools  
+   Monte Carlo simulations and Black–Scholes pricing used as analytical support.
 
-Periodic rebalancing with transaction costs
+4. Rebalancing logic  
+   Periodic rebalancing with transaction costs to illustrate allocation discipline.
 
-Scenario analysis through Monte Carlo simulations
-
-Clear separation between assumptions, results, and interpretation
-
-Where possible, choices are deliberately kept simple and explicit,
-to avoid hiding portfolio behaviour behind overly complex models.
+5. Alternatives monitoring  
+   Simple private equity-style cash flow monitoring (IRR, DPI, TVPI).
 
 # How to run the project
+
+This project is meant to be read and understood first, rather than executed immediately.
 
 Option 1 – Jupyter Notebook (recommended)
 
@@ -82,4 +84,20 @@ Option 2 – Individual scripts
 Each script in the scripts/ folder can also be executed independently
 to focus on a specific aspect of portfolio management (risk, rebalancing, simulations).
 
+Option 3 - Environment
+
+If you wish to run the code locally, using a virtual environment is recommended
+to keep dependencies isolated and avoid conflicts.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate          # macOS / Linux
+# or .\.venv\Scripts\activate      # Windows
+pip install -r requirements.txt
+```
+
+## Tech stack
+
+Python (NumPy, Pandas, Matplotlib, SciPy)  
+Jupyter Notebook for analysis and visualisation
 
