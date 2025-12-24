@@ -14,12 +14,19 @@ over time.
 
 portfolio_management_demo.ipynb   # Main notebook guiding the analysis step by step
 scripts/
+
 ├── portfolio_monitoring.py       # Portfolio performance & drawdown analysis
+
 ├── risk_metrics.py               # Volatility, Sharpe ratio, VaR
+
 ├── rebalancing.py                # Allocation discipline and rebalancing logic
+
 ├── monte_carlo_tools.py          # Simulation tools used as support, not as an end
+
 requirements.txt
+
 README.md
+
 .gitignore
 
 # What this project focuses on
