@@ -28,7 +28,7 @@ Projects_Demonstration.ipynb      # Main notebook guiding the project and linkin
 ├── requirements.txt              # Project dependencies
 ├── README.md                     # Project overview, methodology and assumptions
 └── .gitignore                    # Ignored files and folders
-
+```
 
 # What this project focuses on
 
