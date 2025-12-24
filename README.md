@@ -10,24 +10,25 @@ This project is written from the perspective of a junior asset management analys
 focusing on understanding portfolio behaviour, risk exposure, and the impact of allocation decisions
 over time.
 
-# Repository structure
+## Repository structure
 
-portfolio_management_demo.ipynb   # Main notebook guiding the analysis step by step
-scripts/
+```plaintext
+Projects_Demonstration.ipynb      # Main notebook guiding the project and linking all analyses
+├── scripts/
+│   ├── project1_portfolio_monitoring.py
+│   │   # Portfolio performance monitoring and drawdown analysis
+│   ├── project2_risk_metrics.py
+│   │   # Core risk indicators (volatility, Sharpe ratio, Value at Risk)
+│   ├── project3_monte_carlo_black_scholes.py
+│   │   # Simple option pricing and simulation tools used as analytical support
+│   ├── project4_rebalancing_simulation.py
+│   │   # Multi-asset allocation discipline and rebalancing logic with transaction costs
+│   └── project5_fund_monitoring_private_equity.py
+│       # Basic monitoring of alternative investments (IRR, DPI, RVPI, TVPI)
+├── requirements.txt              # Project dependencies
+├── README.md                     # Project overview, methodology and assumptions
+└── .gitignore                    # Ignored files and folders
 
-├── portfolio_monitoring.py       # Portfolio performance & drawdown analysis
-
-├── risk_metrics.py               # Volatility, Sharpe ratio, VaR
-
-├── rebalancing.py                # Allocation discipline and rebalancing logic
-
-├── monte_carlo_tools.py          # Simulation tools used as support, not as an end
-
-requirements.txt
-
-README.md
-
-.gitignore
 
 # What this project focuses on
 
