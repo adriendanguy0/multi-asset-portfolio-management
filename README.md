@@ -30,22 +30,22 @@ Projects_Demonstration.ipynb      # Main notebook guiding the project and linkin
 └── .gitignore                    # Ignored files and folders
 ```
 
-# What this project focuses on
+## What this project focuses on
 
 Rather than covering many topics superficially, the project focuses on a few core ideas
 that are central to asset management:
 
-Multi-asset portfolio behaviour
-Understanding how equities, bonds and alternative exposures interact over time.
+- **Multi-asset portfolio behaviour**  
+  Understanding how equities, bonds and alternative exposures interact over time.
 
-Risk awareness
-Monitoring volatility, drawdowns and downside risk instead of focusing only on returns.
+- **Risk awareness**  
+  Monitoring volatility, drawdowns and downside risk instead of focusing only on returns.
 
-Allocation discipline
-Observing the impact of periodic rebalancing and transaction costs.
+- **Allocation discipline**  
+  Observing the impact of periodic rebalancing and transaction costs.
 
-Simple quantitative tools
-Using simulations and models as decision-support tools, not as black boxes.
+- **Simple quantitative tools**  
+  Using simulations and models as decision-support tools, not as black boxes.
 
 ## Project overview
 
@@ -64,13 +64,13 @@ Using simulations and models as decision-support tools, not as black boxes.
 5. Alternatives monitoring  
    Simple private equity-style cash flow monitoring (IRR, DPI, TVPI).
 
-# How to run the project
+## How to run the project
 
 This project is meant to be read and understood first, rather than executed immediately.
 
 Option 1 – Jupyter Notebook (recommended)
 
-The main notebook portfolio_management_demo.ipynb walks through the analysis step by step
+The main notebook Projects_Demonstration.ipynb walks through the analysis step by step
 and is the best way to understand the project logic.
 
 You can run it:
